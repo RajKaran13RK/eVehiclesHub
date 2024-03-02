@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.hero {
+    background-image: url('hero-background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly transparent background */
+    color: #fff;
+    padding: 2em; 
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px; 
+}
+
+
+
+button {
+    background-color: #008CBA; /* Example Button Color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed; /* If you want your footer to stick to the bottom */
+    bottom: 0;
+    width: 100%;
+}
+/* Styling For About Page */
+.about {
+    padding: 3em;
+    text-align: center; 
+}
+
+.about img {
+     max-width: 50%;
+     margin-top: 2em;
+}
+
+/* Styling For Car and Bike Listings */
+.e-cars, .e-bikes {
+    padding: 3em;
+}
+
+.car-item, .bike-item { /* Structure would be identical for e-bikes */
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+} 
