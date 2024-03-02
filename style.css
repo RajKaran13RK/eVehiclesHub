@@ -83,3 +83,29 @@ footer {
     margin-bottom: 2em;
     text-align: center;
 } 
+
+.contact {
+    padding: 3em;
+    text-align: center;
+    background-color: #f0f0f0; /* Example light background */
+}
+
+.contact-info {
+    margin-top: 2em;
+}
+
+/* Font Awesome Icon Styling (Optional) */
+.fas { 
+   color: #008cba; /* Example Blue color */
+   margin-right: 10px;
+} 
+.contact-button { 
+    background-color: #008cba; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; /* Removes the default underline */
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    margin: 0 10px; /* Spacing between buttons */
+} 
